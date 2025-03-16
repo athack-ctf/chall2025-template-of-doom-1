@@ -1,8 +1,8 @@
 version: '3.8'
 services:
-  template-of-doom:
-    image: athack-ctf/chall2025-template-of-doom:latest
+  template-of-doom-1:
+    image: athack-ctf/chall2025-template-of-doom-1:latest
     build: .
-    hostname: template-of-doom
+    hostname: template-of-doom-1
     ports:
     - 52046:5000
