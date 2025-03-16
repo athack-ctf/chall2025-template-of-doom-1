@@ -1,10 +1,22 @@
-The description of your challenge as seen by participants in CTFd. Try to make it feel within the theme
-of the event...
+## Challenge Overview
+- **Jester** is an AI rushed into production.
+- It hides **two critical secrets** within its flawed code.
+- **Goal:** Exploit Jester's weaknesses, retrieve these secrets, and shut it down.
 
 ---
-If your challenge is a multi-flag one (i.e., it consists of a sequence of sub-challenges each rewarded with
-its own flag), requiring a different description for each sub-challenge, then have your descriptions split as 
-done with this paragraph, and the next one.
+
+## Challenge 1: Mysterious Key
+- **Location:** Jester’s template system.
+- **Task:** Bypass flawed input handling to extract the hidden value.
 
 ---
-Obviously, for each sub-challenge, you should provide its flag value in [solution/FLAGS.md](solution/FLAGS.md).
+
+## Challenge 2: Advanced Lock
+- **Location:** A custom environment restricting certain operations.
+- **Task:** Use creative exploitation to circumvent these controls and reveal the second secret.
+
+---
+
+### Objective
+- **Uncover** both secrets.
+- **Deactivate** Jester before it’s too late.

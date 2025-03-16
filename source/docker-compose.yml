@@ -1,10 +1,9 @@
-#########################################################################################################################
-# TODO: REPLACE THE CONTENT OF THIS FILE WITH YOUR OWN.
-#########################################################################################################################
+version: "3.8"
 
 services:
-  web:
+  template-of-doom:
     build: .
-    image: chall2025-online-chall
+    image: athack-ctf/chall2025-template-of-doom:latest
+    hostname: template-of-doom
     ports:
-      - "2025:2025"
+      - "2025:5000"
